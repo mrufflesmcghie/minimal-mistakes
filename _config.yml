@@ -107,11 +107,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Matt Ruffles-McGhie"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "United Kingdom"
+  email            : "matt.rufflesmcghie@googlemail.com"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
