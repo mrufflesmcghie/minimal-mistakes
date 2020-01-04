@@ -4,6 +4,8 @@
 
 title:  "Welcome to Jekyll!"
 
+author: Billy Rick
+
 ---
 
 # Welcome
