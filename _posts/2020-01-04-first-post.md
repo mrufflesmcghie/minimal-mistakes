@@ -6,6 +6,8 @@ title:  "Welcome to Jekyll!"
 
 author: Billy Rick
 
+share: false
+
 ---
 
 # Welcome
