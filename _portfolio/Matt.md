@@ -4,13 +4,7 @@ excerpt: "Baz Boom design system including logo mark, website design, and brandi
 header:
   #image: assets/images/resume-profile2.png
   #teaser: assets/images/unsplash-gallery-image-1-th.jpg
-sidebar:
-  - title: "Role"
-    image: assets/images/resume-profile2.png
-    image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+
 gallery:
   - url: docs/assets/images/unsplash-gallery-image-1.jpg
     image_path: docs/assets/images/unsplash-gallery-image-1-th.jpg
