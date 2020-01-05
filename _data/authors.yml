@@ -3,11 +3,9 @@ Matt Ruffles-McGhie:
   avatar           : "/assets/images/resume-profile2.png"
   bio              : "I am an **amazing** person."
   location         : "United Kingdom"
-  email            : 
-
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-envelope-square"
       url: mailto:"matt.rufflesmcghie@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
