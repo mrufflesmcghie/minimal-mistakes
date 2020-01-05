@@ -1,5 +1,5 @@
 ---
-title: "Baz Boom Identity"
+title: "Matt Ruffles-McGhie"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
   image: docs/assets/images/unsplash-gallery-image-1.jpg
