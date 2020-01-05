@@ -4,7 +4,7 @@
 
 title:  "Welcome to Jekyll!"
 
-author: Matt Ruffles-Mcghie
+author: Matt Ruffles-McGhie
 
 share: false
 
