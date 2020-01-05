@@ -309,8 +309,8 @@ defaults:
 
     values:
 
-      layout: single
+      
 
       author_profile: false
 
-      share: true
+    
