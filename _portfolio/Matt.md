@@ -14,5 +14,5 @@ gallery:
 ---
 
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery class="circle" caption="This is a sample gallery to go along with this case study." %}
 
