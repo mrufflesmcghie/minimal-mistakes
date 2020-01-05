@@ -8,7 +8,7 @@ header:
 gallery:
   - url: docs/assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/resume-profile2.png
-
+    class: "circle"
     alt: "placeholder image 1"
  
 ---
