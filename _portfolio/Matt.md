@@ -7,14 +7,9 @@ header:
 
 gallery:
   - url: docs/assets/images/unsplash-gallery-image-1.jpg
-    image_path: docs/assets/images/unsplash-gallery-image-1-th.jpg
+    image_path: docs/assets/images/resume-profile2.png
     alt: "placeholder image 1"
-  - url: docs/assets/images/unsplash-gallery-image-2.jpg
-    image_path: docs/assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: docs/assets/images/unsplash-gallery-image-3.jpg
-    image_path: docs/assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+ 
 ---
 
 
