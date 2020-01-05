@@ -1,15 +1,11 @@
 ---
 
-
-
-title:  "Welcome to Jekyll!"
-
 author: Matt Ruffles-McGhie
 
 share: false
 
 header:
-  image: https://unsplash.com/photos/LUPXhXj2ip0
+  image: https://images.unsplash.com/photo-1545608444-f045a6db6133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80
 
 ---
 
