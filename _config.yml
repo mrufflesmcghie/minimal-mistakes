@@ -309,7 +309,7 @@ defaults:
 
     values:
 
-      layout: archive
+      layout: portfolio
 
       author_profile: false
 
