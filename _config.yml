@@ -21,7 +21,7 @@ collections:
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ruffles-McGhie Home"
+title                    : "Ruffles-McGhie"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Matt Ruffles-McGhie"
