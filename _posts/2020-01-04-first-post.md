@@ -4,7 +4,7 @@
 
 title:  "Welcome to Jekyll!"
 
-author: Billy Rick
+author: Matt Ruffles-Mcghie
 
 share: false
 
