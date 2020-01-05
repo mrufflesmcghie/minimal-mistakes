@@ -7,7 +7,8 @@ header:
 
 gallery:
   - url: docs/assets/images/unsplash-gallery-image-1.jpg
-    image_path: docs/assets/images/resume-profile2.png
+    image_path: assets/images/resume-profile2.png
+
     alt: "placeholder image 1"
  
 ---
