@@ -11,7 +11,7 @@ gallery:
     alt: "placeholder image 1"
 
 bio:
-  - email: matt.rufflesmcghie@gmail.com
+  email: "matt.rufflesmcghie@gmail.com"
 
  
 ---
