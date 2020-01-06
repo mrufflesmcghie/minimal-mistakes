@@ -19,5 +19,5 @@ bio:
 
 {% include gallery class="portfolio-img" caption="This is a sample gallery to go along with this case study." %}
 
-{ include page.bio.email } 
+
 
