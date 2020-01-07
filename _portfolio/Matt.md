@@ -4,6 +4,7 @@ excerpt: "Baz Boom design system including logo mark, website design, and brandi
 header:
   #image: assets/images/resume-profile2.png
   #teaser: assets/images/unsplash-gallery-image-1-th.jpg
+author: Matt Ruffles-McGhie
 author_profile: true
 
 gallery:
