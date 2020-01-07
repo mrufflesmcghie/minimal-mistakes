@@ -26,5 +26,7 @@ layout: default
     {{ content }}
     
     <p style="text-align:center">E-Mail:{{ page.bio.email }}<p>
+    
+    {{ page | jsonify }}
   </div>
 </div>
