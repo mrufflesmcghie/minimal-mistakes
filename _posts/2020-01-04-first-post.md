@@ -2,7 +2,7 @@
 
 author: Matt Ruffles-McGhie
 
-share: true
+
 
 author_profile: true
 
