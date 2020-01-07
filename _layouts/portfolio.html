@@ -14,13 +14,15 @@ layout: default
   {% endunless %}
 {% endif %}
 
+
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
   <div class="portfolio">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title">{% capture name %}{{ page.title }}{% endcapture %}</h1>
-    {% endunless %}
+    
+      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    
     
    
     {{ content }}
@@ -28,7 +30,7 @@ layout: default
     <p style="text-align:center">E-Mail:{{ page.bio.email }}<p>
     <p style="text-align:center">Location:{{ author.location}} <p>
     
-    {{ site.author.{{ name }} | inspect }} 
+    {{ site.author | inspect }} 
  
   </div>
 </div>
