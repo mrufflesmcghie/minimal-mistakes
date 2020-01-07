@@ -1,8 +1,12 @@
 .portfolio {
-  figure.portfolio-img img {
-    border-radius: 50%;
+  h1 {
+    text-align: center;
+    padding-top: 5px;
   }
-  .page__title {
-    margin-top: 5px;
+  .figure,
+  img {
+    border-radius: 50%;
+    max-width: 25%;
+    max-height: auto;
   }
 }
