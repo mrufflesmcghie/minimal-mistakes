@@ -111,11 +111,11 @@ analytics:
 
 
 # Site Author
-author:
-  name             : "Matt Ruffles-McGhie"
-  avatar           : "/assets/images/resume-profile2.png"
+#author:
+ # name             : "Matt Ruffles-McGhie"
+ # avatar           : "/assets/images/resume-profile2.png"
   bio              : "I am an **amazing** person."
-  location         : "United Kingdom"
+#  location         : "United Kingdom"
   email            : 
 
   links:
