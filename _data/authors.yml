@@ -23,10 +23,10 @@ Matt Ruffles-McGhie:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-Billy Rick:
-  name        : "Billy Rick"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
+Isobella Ruffles-McGhie:
+  name        : "Isobella Ruffles-McGhie"
+  bio         : "Just an ordinary 6 year old"
+  avatar      : "/assets/images/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
