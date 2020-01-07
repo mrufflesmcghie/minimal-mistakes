@@ -9,9 +9,16 @@ gallery:
   - image_path: assets/images/resume-profile2.png
     class:  portfolio-img
     alt: "placeholder image 1"
+
+bio:
+  email: "matt.rufflesmcghie@gmail.com"
+
  
 ---
 
 
 {% include gallery class="portfolio-img" caption="This is a sample gallery to go along with this case study." %}
+
+
+
 
