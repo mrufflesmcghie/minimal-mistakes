@@ -28,7 +28,7 @@ layout: default
     <p style="text-align:center">E-Mail:{{ page.bio.email }}<p>
     <p style="text-align:center">Location:{{ author.location}} <p>
     
-    {{author | inspect }} 
+    {{site.author[page.title] | inspect }} 
  
   </div>
 </div>
