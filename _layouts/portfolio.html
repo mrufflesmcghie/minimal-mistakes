@@ -19,7 +19,7 @@ layout: default
 
   <div class="portfolio">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+      <h1 id="page-title" class="page__title">{% capture name %}{{ page.title }}{% endcapture %}</h1>
     {% endunless %}
     
    
@@ -28,7 +28,7 @@ layout: default
     <p style="text-align:center">E-Mail:{{ page.bio.email }}<p>
     <p style="text-align:center">Location:{{ author.location}} <p>
     
-    {{site.author[page.title] | inspect }} 
+    {{site.author{{ name }} | inspect }} 
  
   </div>
 </div>
