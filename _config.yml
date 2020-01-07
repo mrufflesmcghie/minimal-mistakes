@@ -18,6 +18,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+    
+  authors:
+    output: true
+    permalink: /authors/:name
 
 # Site Settings
 locale                   : "en-US"
