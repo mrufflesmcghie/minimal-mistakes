@@ -1,9 +1,11 @@
 ---
 title: "Matt Ruffles-McGhie"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
-header:
+#header:
   #image: assets/images/resume-profile2.png
   #teaser: assets/images/unsplash-gallery-image-1-th.jpg
+author: Matt Ruffles-McGhie
+
 
 gallery:
   - image_path: assets/images/resume-profile2.png
