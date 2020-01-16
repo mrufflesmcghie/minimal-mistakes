@@ -1,7 +1,9 @@
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
-
+{% for author in site.authors %} 
+{{author.name}}
+{% endfor %}
 
 <div itemscope itemtype="https://schema.org/Person">
 
