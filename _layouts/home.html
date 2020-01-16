@@ -4,7 +4,7 @@ layout: archive
 
 
 <div itemscope itemtype="https://schema.org/Person">
- 
+ {% for author in site.authors %} 
   {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
@@ -39,7 +39,9 @@ layout: archive
         {{ author.bio | markdownify }}
       </div>
     {% endif %}
+
   </div>
+{% endfor %} 
 </div>
 
 
