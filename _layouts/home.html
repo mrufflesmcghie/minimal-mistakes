@@ -3,10 +3,51 @@ layout: archive
 ---
 
 
-{% for author in site.authors %} 
-{{author.name}}
-{{author.url}}
-{% endfor %}
+<div itemscope itemtype="https://schema.org/Person">
+ 
+  {% if author.avatar %}
+    <div class="author__avatar">
+      {% if author.avatar contains "://" %}
+        {% assign author_src = author.avatar %}
+      {% else %}
+        {% assign author_src = author.avatar | relative_url %}
+      {% endif %}
+ 
+      {% if author.home %}
+        {% if author.home contains "://" %}
+          {% assign author_link = author.home %}
+        {% else %}
+          {% assign author_link = author.home | relative_url %}
+        {% endif %}
+        <a href="{{ author_link }}">
+          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+        </a>
+      {% else %}
+        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+      {% endif %}
+    </div>
+  {% endif %}
+ 
+  <div class="author__content">
+    {% if author.home %}
+      <a href="{{ author_link }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
+    {% else %}
+      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    {% endif %}
+    {% if author.bio %}
+      <div class="author__bio" itemprop="description">
+        {{ author.bio | markdownify }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+
+
+
+
+
+
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
