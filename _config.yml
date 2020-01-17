@@ -21,7 +21,7 @@ collections:
 
   authors:
     output: true
-    permalink: /authors/:name
+    permalink: /:collection/
 
 # Site Settings
 locale: "en-US"
@@ -276,4 +276,14 @@ defaults:
     values:
       layout: portfolio
 
-      author_profile: false
+      author_profile:
+        false
+        # _authors
+
+  - scope:
+      path: ""
+
+      type: authors
+
+    values:
+      layout: authors

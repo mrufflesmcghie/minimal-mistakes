@@ -1,7 +1,7 @@
 {% for author in site.authors %}
 <div itemscope itemtype="https://schema.org/Person">
   {% if author.avatar %}
-  <div class="author__avatar">
+  <div class="author__list__avatar">
     {% if author.avatar contains "://" %} {% assign author_src = author.avatar
     %} {% else %} {% assign author_src = author.avatar | relative_url %} {%
     endif %} {% if author.home %} {% if author.home contains "://" %} {% assign
