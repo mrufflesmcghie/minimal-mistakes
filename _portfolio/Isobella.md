@@ -8,7 +8,7 @@ author: Isobella Ruffles-McGhie
  
  
 gallery:
-  - image_path: assets/images/resume-profile2.png
+  - image_path: /assets/images/svgA020587497914558828.png
     class:  portfolio-img
     alt: "placeholder image 1"
  
